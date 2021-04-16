@@ -1,0 +1,35 @@
+<script>
+    // faça uma aplicacao para analisar a idade dos nadores de escola 
+    // de nataão. 'qual a idade do nadador'
+    // menor 7 infantil
+    // entre 7 e 10 juvenil A
+    // entre 11 e 17 juvenil B
+    // se 18 ou mais Adulto
+
+    idade = parseInt(prompt('qual é idade do nadador: '));
+
+    if (idade < 7) {
+        document.write('infantil');
+    } else if (idade <= 10){
+        document.write('Juvenil A');
+    } else if (idade <= 17){
+        document.write('Juvenil B');
+    } else document.write('Adulto');
+    // ======================================================
+    // fazendo com o switch
+    document.write('\n')
+    switch(true){
+        case (idade < 7):
+            document.write('infantil')
+            break;
+        case (idade <=11):
+            document.write('Juvenil A')
+            break;
+        case (idade <=17):
+            document.write('Juvenil B')
+            break;
+        default:
+            document.write('adulto')
+    }
+
+</script>

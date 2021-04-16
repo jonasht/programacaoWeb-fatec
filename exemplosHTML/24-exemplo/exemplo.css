@@ -1,0 +1,46 @@
+body{
+    /*escolha da fonte */
+    font: 100% Verdana, Times New Roman, san-serif;
+    /*comentarios*/
+
+
+    background: #b7b7b7;
+    
+
+    margin: 0; /*distancia da margem*/
+    padding: 0; /* distancia a partir da margem */
+
+
+}
+
+#moldura{
+    background: green;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+#topo{
+    background: greenyellow;
+    padding: 10px;
+
+}
+
+#conteudo{
+    width: 60%;
+    float: left;
+    min-height: 400px;
+    height: 400px;
+    
+}
+
+#nevegacao{
+    width: 20%;
+    float: left;
+
+}
+
+#rodape{
+    clear: both; /* limpar formatacoes*/
+    background: yellow;
+}
