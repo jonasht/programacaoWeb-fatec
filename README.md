@@ -1,1 +1,1 @@
-# programacao web fatec, foi feito em aula da fatec mogi mirim
+# programacao web fatec, os escripts foram feito em aula  - fatec mogi mirim
